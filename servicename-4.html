@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>LAMBDA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./styles/main-list.css">
+    <link href="./styles/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" type="image/png" href="./images/icon.ico">
+</head>
+<body> 
+ <div class="header"> 
+     <div class="header__logo">
+         <a href="index.html" class="header__link">
+         <img src="./images/three.png" class="header__img">lambda</a>
+     </div>
+     <nav class="header__nav-bar">
+         <a href="model.html" class="header__link  nav-bar__main-link"><img src="./images/one.png" class="header__img">Models</a>
+         <a href="index.html" class="header__link  nav-bar__main-link" ><img src="./images/five.png" class="header__img">Applications</a>
+     </nav>
+ </div>
+ <div class="general">
+     <aside class="sidebar">
+         <div class="sidebar-header">
+             <div class="sidebar-header__title">Applications<button form="button" class="sidebar-header__btn" href="#"> + ADD NEW</button></div>
+             <div class="sidebar-header__search">
+                 <svg class="sidebar-header__search__icon" height="30" viewBox="0 0 30 30" width="30" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 17c-.13.004-.253.058-.344.15L.64 26.652c-.896.893-.776 2.134-.105 2.81.67.674 1.913.795 2.81-.103l9.49-9.49c.492-.472-.25-1.182-.706-.708l-9.49 9.49c-.58.58-1.07.43-1.396.104-.326-.328-.47-.826.102-1.397l9.517-9.503c.326-.318.084-.857-.363-.857zm8.45-14.93c-1.604.213-3.146.91-4.39 2.063-.49.453.21 1.17.68.734 2.18-2.02 5.392-2.445 8.022-1.06.58.332 1.053-.603.465-.885-1.5-.79-3.17-1.064-4.776-.852zM20 0c-5.517 0-10 4.483-10 10s4.483 10 10 10 10-4.483 10-10S25.517 0 20 0zm0 1c4.976 0 9 4.024 9 9s-4.024 9-9 9-9-4.024-9-9 4.024-9 9-9z"/></svg>
+                 <input placeholder="Search" src="./images/Search.png" min="10" max="18" size="40%" class="sidebar-header__search__input"/> 
+             </div>
+         </div>
+         <ul class="sidebar-list">
+             <li class="sidebar-list__item"><a class="sidebar-list__item__link" href="index.html">test_application_#1</a></li>
+             <li class="sidebar-list__item"><a class="sidebar-list__item__link" href="servicename-2.html">servicename_#2 </a></li>
+             <li class="sidebar-list__item"><a class="sidebar-list__item__link" href="servicename-3.html">servisname_#3</a></li>
+             <li class="sidebar-list__item"><a class="sidebar-list__item__link" href="servicename-4.html">servisname_#4</a></li>
+         </ul>
+     </aside>
+     <main class="main">
+         <div class="main-hdr">
+             <div class="main-hdr__title"><h1>servicename_#4</h1></div>
+             <div class="main-hdr__btn-holder">
+                 <button class="main-hdr__btn main-hdr__btn__first" ><img class="main-hdr__img" src="./images/btn1.svg">TEST</button>
+                 <button class="main-hdr__btn"><img class="main-hdr__img" src="./images/btn2.svg"> EDIT</button>
+                 <button class="main-hdr__btn"><img class="main-hdr__img" src="./images/btn3.svg"> REMOVE</button>
+             </div>
+         </div>
+         <ul class="main-list">
+            <li class="main-list__item">
+                <span class="main-list__item__content-info">Version</span>
+                <span class="main-list__item__status">2</span>
+            </li>
+            <li class="main-list__item">
+                <span class="main-list__item__content-info">Modeltype</span>
+                <span class="main-list__item__status">physon3:6</span>
+            </li>
+         </ul>
+         <div class="main-table__title">Stage 1</div>
+         <table class="main-table">
+            <thead class="main-table__subtitle">
+                <tr class="main-table__subtitle__line">
+                    <th class="line__item">Model variant</th>
+                    <th class="line__item">Runtime</th>
+                    <th class="line__item">Weight</th>
+                    <th class="line__item">Health</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="main-table__content__line">
+                    <td class="line__item">test_application_#1</td>
+                    <td class="line__item"><a href="models.html">models.html</a></td>
+                    <td class="line__item">100%</td>
+                    <td class="line__item">+</td>
+                </tr>
+            </tbody>
+         </table>
+     </main>
+ </div>
+</body>
+</html>

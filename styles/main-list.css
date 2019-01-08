@@ -1,0 +1,118 @@
+.main-hdr {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.main-hdr__btn-holder {
+    display: inline-flex;
+}
+.main-hdr__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    color: #5794D9;
+    height: 29px;
+    width: 90px;
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 3px;
+    border: white;
+    font-size: 12px;
+}
+.main-hdr__btn:hover {
+    background-color: #5794D9;
+    color: white;
+}
+.main-hdr__img {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    height: 16px;
+    color: #5794D9;
+    margin: 0 4px 0 0;
+}
+.main-hdr__btn__first {
+    border: 1px solid #5794D9;
+}
+
+
+.main-list {
+    padding: 0;  
+}
+.main-list__item {
+    display: flex;
+    margin: 0;
+    cursor: pointer;
+    align-items: center;
+    color: #05143D;
+    text-decoration: none;
+}
+.main-list__item__content-info::after  {
+    content: '.......................................................................';
+    margin: 0 6px; 
+    text-decoration: #05143D;
+}
+.main-list__item__content-info {
+    text-decoration: #05143D;
+    opacity: 0.5;
+    width: 230px;
+    overflow: hidden;
+    font-weight: 600;
+    padding: 5px 0;
+}
+.main-list__item__status {
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+
+.main-table__title {
+    display: flex;
+    justify-content: center;
+    color: #88898F;
+    border-bottom: 2px solid #E8E9EB;
+    height: 50px;
+    align-items: center;
+    background-color: #F8F9FB;
+    font-weight: 800;
+    margin: 50px 0 0 0;
+}
+.main-table {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.main-table__subtitle {
+    display: flex; 
+    justify-content: center;
+    font-weight: 600;
+    border-bottom: 1px solid #E8E9EB;
+}
+.main-table__subtitle__line {
+    display: flex;
+    justify-content: space-between;
+    color: #B8B9BF;
+    background-color: #F8F9FB;
+    height: 50px;
+    align-items: center;
+    font-size: 14px;
+    width: 900px;
+}
+
+.main-table__content__line {
+    justify-content: space-between;
+    display: flex;
+    color: #05143D;
+    height: 40px;
+    background-color: #F8F9FB;
+    text-decoration: none;
+}
+.line-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+}
